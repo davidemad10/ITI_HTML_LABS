@@ -1,0 +1,308 @@
+
+<!-- 
+ Q1:
+What is HTML? 
+(HyperText Markup Language) is designed to display content on web pages. It defines the structure of web pages and how elements like text, images, and links appear in a browser.
+-->
+
+
+
+
+<!-- 
+ Q2:
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="author" content="David">
+    <meta name="keywords" content="Hello world">
+    <meta name="description" content="this is test description"> 
+    <title>Hello,world!</title>
+    <link rel="icon" href="/icon.webp">
+    <link rel="stylesheet" href="">
+</head>
+<body>
+    <p>Hello,world!</p>
+</body>
+</html>-->
+
+
+
+
+<!-- 
+    Q3:
+
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>David</title>
+    </head>
+    <body>
+        <p>
+            <del>Lorem ipsum</del> dolor sit amet <b>consectetur adipisicing</b> elit. Blanditiis <u>quisquam</u> minima <i>eveniet</i> tenetur <mark>dolorum</mark> deserunt ut sunt itaque quam. Deleniti harum numquam dolorum aperiam ipsa odit eaque rem expedita neque!
+        </p>
+    </body>
+</html> -->
+
+
+
+
+<!--
+    Q4:
+
+    [b, strong]:
+        <b> is a presentational tag, focusing on visual appearance (bold text). It doesn’t convey any semantic meaning.
+        <strong> is a semantic tag, indicating strong importance, or urgency. It provides meaning to the text, emphasizing its significance.
+    [i, em]:
+        <i> is a presentational tag, focusing on visual appearance (italic text). It doesn’t convey any semantic meaning.
+        <em> is a semantic tag, indicating stress. It suggests that the text should be read with a particular tone or emphasis.     
+    [s, del]:
+       <s> is a presentational tag, used to strike through text (strikethrough). It doesn’t convey any semantic meaning.
+       <del> is a semantic tag, indicating that the text has been deleted or removed. It provides meaning to the text, indicating a change in its status.
+    [s, ins]:
+        <s> is a deprecated tag, used to strike through text (strikethrough). It’s no longer recommended for use.
+        <ins> is a semantic tag, indicating inserted or added text. It provides meaning to the text, indicating a change in its status.
+-->
+
+
+
+
+<!-- 
+    Q5:
+
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Document</title>
+    </head>
+    <body>
+        <p>
+            This is first paragraph<br>
+            This is sec paragraph<br>
+            This is third paragraph<br>
+        </p>
+        <hr>
+        <p>
+            This is 4 paragraph<br>
+            This is 5 paragraph<br>
+            This is 6 paragraph<br>
+        </p>
+    </body>
+</html> 
+-->
+
+
+
+
+<!--
+    Q6:
+
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Document</title>
+    </head>
+    <body>
+        <ol type="I">
+            <li>List Item 1</li>
+            <ol type="a">
+                <li>Nested item 1.1</li>
+                <li>Nested item 1.2</li>
+            </ol>
+            <li>List Item 2</li>
+            <ol>
+                <li>Nested item 2.1</li>
+                <li>Nested item 2.2</li>
+                <ul type="circle">
+                    <li>Nested item 2.2.1</li>
+                    <li>Nested item 2.2.2</li>
+                    <ul type="square">
+                        <li>Nested item 2.2.2.1</li>
+                        <li>Nested item 2.2.2.2</li>
+                    </ul>
+                    <li>Nested item 2.2.3</li>
+                </ul>
+                <li>Nested item 2.3</li>
+            </ol>
+            <li>List Item 3</li>
+            <ul type="disc">
+                <li>Nested item 3.1</li>
+                <li>Nested item 3.2</li>
+                <li>Nested item 3.3</li>
+            </ul>
+        </ol>
+    </body>
+</html>
+-->
+
+
+
+
+<!-- 
+    Q7:
+
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Document</title>
+    </head>
+    <body>
+       <table border="1" bgcolor="black" width="500">
+            <thead bgcolor="grey">
+                <tr>
+                    <th rowspan="3">Day</th>
+                    <th colspan="3">Seminer</th>
+                </tr>
+                <tr>
+                    <th colspan="2">Schedule</th>
+                    <th rowspan="2">Topic</th> 
+                </tr>
+                <th>Begin</th>
+                <th>End</th>          
+            </thead>
+            <tr bgcolor="lightgrey">
+                <td rowspan="2">Monday</td>
+                <td rowspan="2">8:00 am.</td>
+                <td rowspan="2">5:00 pm.</td>
+                <td>Introduction to XML</td>
+            </tr>
+            <tr bgcolor="lightgrey">
+                <td>Validity: DTD and Relax NG</td>
+            </tr>
+            <tr bgcolor="lightgrey">
+                <td rowspan="3">Tuesday</td>
+                <td>8:00 a.m.</td>
+                <td>11:00 a.m.</td>
+                <td>XPath</td>
+            </tr>
+            <tr bgcolor="lightgrey">
+                <td>11:00 a.m.</td>
+                <td>2:00 p.m.</td>
+                <td rowspan="2">XSL Transformations</td>
+            </tr>
+            <tr bgcolor="lightgrey">
+                <td>2:00 p.m.</td>
+                <td>5:00 p.m.</td>
+            </tr>
+            <tr bgcolor="lightgrey">
+                <td>Wednesday</td>
+                <td>8:00 a.m</td>
+                <td>12:00 p.m.</td>
+                <td>XSL Formatting Objects</td>
+            </tr>
+       </table>
+    </body>
+</html> 
+-->
+
+
+
+
+<!-- 
+    Q8:
+
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Document</title>
+    </head>
+    <body>
+        <a href="https://www.google.com/">click here to go to google in same page!</a>
+        <br>
+        <br>
+        <a href="https://www.google.com/" target="_blank">click here to go to google in another page!</a>
+    </body>
+</html>
+ -->
+
+
+
+
+<!--
+    Q9:
+
+ <!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Document</title>
+    </head>
+    <body>
+       <img src="https://imgs.search.brave.com/UbzRKgvPzPr8FEuIozbX7ohFztcZCeWKmX_OMv6xlew/rs:fit:860:0:0:0/g:ce/aHR0cHM6Ly9kZWVw/YWkub3JnL3N0YXRp/Yy9pbWFnZXMvZG9s/cGhpbjEuc3Zn">
+       <img src="/icon.webp">
+    </body>
+</html> 
+-->
+
+
+
+
+<!--
+    Q10:
+
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Document</title>
+    </head>
+    <body>
+       <a href="https://deepai.org/machine-learning-model/text2img" target="_blank"><img src="https://imgs.search.brave.com/UbzRKgvPzPr8FEuIozbX7ohFztcZCeWKmX_OMv6xlew/rs:fit:860:0:0:0/g:ce/aHR0cHM6Ly9kZWVw/YWkub3JnL3N0YXRp/Yy9pbWFnZXMvZG9s/cGhpbjEuc3Zn"></body></a>
+    </body>
+</html> 
+-->
+
+
+
+
+<!-- 
+    Q11:
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Document</title>
+    </head>
+    <body>
+        <iframe width="560" height="315" src="https://www.youtube.com/embed/shorts/1bjvc8eWTjE" frameborder="0" allowfullscreen></iframe>
+    </body>
+</html> 
+-->
+
+
+
+
+<!-- 
+  Q12:
+
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Document</title>
+    </head>
+    <body>
+        <audio controls>
+            <source src="/vo.mp3" type="audio/mp3">
+        </audio>
+        <video controls>
+            <source src="/ve.mp4" type="video/mp4">
+        </video>
+    </body>
+</html> -->
