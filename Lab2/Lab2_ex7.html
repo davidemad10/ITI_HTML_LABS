@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Blog Comment Section</title>
+    <link rel="stylesheet" href="/Lab2_ex7.css">
+</head>
+<body>
+    <main>
+        <article>
+            <h1>Blog Title</h1>
+            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus lacinia odio vitae vestibulum vestibulum.</p>
+        </article>
+
+        <section class="comment-section">
+            <h2>Comments</h2>
+
+            <article class="comment">
+                <p><strong>John Doe:</strong> Great blog post! I learned a lot.</p>
+            </article>
+            <article class="comment">
+                <p><strong>Jane Smith:</strong> Thanks for sharing. Looking forward to more content!</p>
+            </article>
+
+            <aside>
+                <form action="#" method="post" class="comment-form">
+                    <h3>Leave a Comment</h3>
+                    <label for="name">Name:</label>
+                    <input type="text" id="name" name="name" placeholder="Your name" required>
+
+                    <label for="comment">Comment:</label>
+                    <textarea id="comment" name="comment" placeholder="Write your comment here..." required></textarea>
+
+                    <button type="submit">Submit</button>
+                </form>
+            </aside>
+        </section>
+    </main>
+</body>
+</html>
