@@ -1,0 +1,132 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>HTML & CSS Practice</title>
+    <link rel="stylesheet" href="/Lab3.css">
+</head>
+<body>
+    <header>
+        <h1>My Website</h1>
+        <h2>Welcome to the world of HTML & CSS</h2>
+    </header>
+
+    <nav class="menu-bar">
+        <a href="#home">Home</a>
+        <a href="#about">About</a>
+        <a href="#contact">Contact</a>
+    </nav>
+
+    <main>
+        <section>
+            <h2>Article Title</h2>
+            <p>This is the first paragraph of the article.</p>
+            <p>This is the second paragraph of the article.</p>
+        </section>
+
+        <section>
+            <h2>Steps to Complete a Task</h2>
+            <ol>
+                <li>Step 1: Read the instructions.</li>
+                <li>Step 2: Prepare materials.</li>
+                <li>Step 3: Follow the steps carefully.</li>
+            </ol>
+        </section>
+
+        <section>
+            <h2>Student Grades</h2>
+            <table>
+                <tr>
+                    <th>Name</th>
+                    <th>Grade</th>
+                </tr>
+                <tr>
+                    <td>John Doe</td>
+                    <td>A</td>
+                </tr>
+                <tr>
+                    <td>Jane Smith</td>
+                    <td>B</td>
+                </tr>
+            </table>
+        </section>
+    </main>
+
+    <footer>
+        <p>&copy; 2025 My Website. All Rights Reserved.</p>
+    </footer>
+
+    <section class="profile-card">
+        <img src="./icon.webp" alt="Profile Picture">
+        <h3>John Doe</h3>
+        <p>Web Developer & Designer passionate about creating modern websites.</p>
+        <button onclick="location.href='#'">Contact Me</button>
+    </section>
+
+    <section class="gallery">
+        <figure>
+            <img src="./icon.webp" alt="Gallery Image 1">
+            <figcaption>Image 1</figcaption>
+        </figure>
+        <figure>
+            <img src="./icon.webp" alt="Gallery Image 2">
+            <figcaption>Image 2</figcaption>
+        </figure>
+        <figure>
+            <img src="./icon.webp" alt="Gallery Image 3">
+            <figcaption>Image 3</figcaption>
+        </figure>
+    </section>
+
+    <section class="form-section">
+        <form>
+            <label for="name">Name:</label>
+            <input type="text" id="name" name="name">
+            
+            <label for="email">Email:</label>
+            <input type="email" id="email" name="email">
+            
+            <label for="language">Favorite Programming Language:</label>
+            <select id="language" name="language">
+                <option value="javascript">JavaScript</option>
+                <option value="python">Python</option>
+                <option value="java">Java</option>
+            </select>
+            
+            <fieldset>
+                <legend>Skill Level</legend>
+                <label><input type="radio" name="skill" value="beginner"> Beginner</label>
+                <label><input type="radio" name="skill" value="intermediate"> Intermediate</label>
+                <label><input type="radio" name="skill" value="advanced"> Advanced</label>
+            </fieldset>
+            
+            <button type="submit">Submit</button>
+        </form>
+    </section>
+
+    <section class="list-section">
+        <h2>Favorite Foods</h2>
+        <ul>
+            <li>Pizza
+                <ul>
+                    <li>Cheese</li>
+                    <li>Tomato</li>
+                </ul>
+            </li>
+            <li>Burger
+                <ul>
+                    <li>Beef</li>
+                    <li>Lettuce</li>
+                </ul>
+            </li>
+            <li>Pasta
+                <ul>
+                    <li>Sauce</li>
+                    <li>Cheese</li>
+                </ul>
+            </li>
+        </ul>
+    </section>
+</body>
+</html>
