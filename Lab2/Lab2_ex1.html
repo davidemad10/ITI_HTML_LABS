@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+  </head>
+  <body>
+    <form>
+      <div>
+        <label for="username">Username</label>
+        <input type="text" id="username" name="username" value="David" />
+      </div>
+      <br />
+      <div>
+        <label for="password">Password</label>
+        <input type="password" id="password" />
+      </div>
+      <br />
+      <div>
+        <label for="confirm">Confirmation</label>
+        <input type="password" id="confirm" />
+      </div>
+      <br />
+      <div>
+        <label for="phone">Phone</label>
+        <input type="tel" id="phone" />
+      </div>
+      <br />
+      <div>
+        <label for="email">Email</label>
+        <input type="email" id="email" />
+      </div>
+      <br />
+      <div>
+        <label for="gender">Gender:</label>
+        <label for="male">M</label>
+        <input type="radio" name="gender" />
+        <label for="female">F</label>
+        <input type="radio" name="gender" />
+      </div>
+      <br />
+      <div>
+        <label for="BD">BD</label>
+        <input type="date" />
+      </div>
+      <br />
+      <div>
+        <label for="like">Do u like this lab:</label>
+        <label for="yes">yes</label>
+        <input type="radio" name="like" checked />
+        <label for="no">no</label>
+        <input type="radio" name="like" />
+      </div>
+      <br />
+      <div>
+        <label for="rate">Rate our session</label>
+        <input type="range" min="1" max="10" value="6" />
+      </div>
+      <br />
+      <div>
+        <label for="fav">Favorite color</label>
+        <select name="favcolor" id="fav">
+          <option value="red">Red</option>
+          <option value="green">Green</option>
+          <option value="Blue">Blue</option>
+        </select>
+      </div>
+      <br />
+      <div>
+        <label for="feedback">Feedback</label>
+        <textarea name="feedback" id="feedback" rows="5"></textarea>
+      </div>
+      <br />
+      <div>
+        <label for="cv">Upload your cv:</label>
+        <input type="file" />
+      </div>
+      <br />
+      <div>
+        <label for="lang">choose your language:</label>
+        <div>
+          <label for="en">EN</label>
+          <input type="checkbox" />
+          <label for="ar">AR</label>
+          <input type="checkbox" />
+        </div>
+      </div>
+      <br />
+      <div>
+        <input type="hidden" value="hidden" />
+      </div>
+      <br />
+      <div>
+        <input type="reset" />
+        <input type="submit" />
+      </div>
+    </form>
+  </body>
+</html>
